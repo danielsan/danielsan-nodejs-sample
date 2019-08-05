@@ -3,9 +3,9 @@
 service: danielsan-nodejs-sample
 
 plugins:
-  - serverless-aws-alias
+  # - serverless-aws-alias
   # https://serverless.com/plugins/serverless-plugin-aws-alerts/
-  - serverless-plugin-aws-alerts
+  # - serverless-plugin-aws-alerts
 
 provider:
   name: aws
